@@ -1,7 +1,7 @@
 {
     "app_id" : "com.oaucdl.ezone",
-    "appname": "eZone Mobile",
-    "desktopappname": "eZone Desktop",
+    "appname": "eZone",
+    "desktopappname": "eZone",
     "versioncode" : "2018",
     "versionname" : "1.5.2",
     "cache_expiration_time" : 300000,

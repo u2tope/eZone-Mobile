@@ -5,7 +5,7 @@
         id        = "com.oaucdl.ezone"
         versionCode = "2018"
         version   = "1.5.2">
-    <name>eZone Mobile</name>
+    <name>eZone</name>
 
     <description>
         Official Mobile app for OAUCDL eZone
