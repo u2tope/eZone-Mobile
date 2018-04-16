@@ -1,0 +1,11 @@
+/**
+ * styles for eZone.
+ *
+ */
+
+ .mm-bglogo {
+   background-color: #164C78;
+   /* Change this to add a bg image or change color */
+   background: -webkit-radial-gradient(#54A2E0, #164C78);
+   background: radial-gradient(#54A2E0, #164C78);
+ }
