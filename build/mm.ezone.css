@@ -1,11 +1,208 @@
 /**
- * styles for eZone.
- *
- */
+* styles for eZone.
+*
+*
+* Base #f98012 #54A2E0
+* Dark #dd6c06 #164C78
+*/
 
- .mm-bglogo {
-   background-color: #164C78;
-   /* Change this to add a bg image or change color */
-   background: -webkit-radial-gradient(#54A2E0, #164C78);
-   background: radial-gradient(#54A2E0, #164C78);
- }
+.mm-bglogo {
+background-color: #164C78;
+/* Change this to add a bg image or change color */
+background: -webkit-radial-gradient(#54A2E0, #164C78);
+background: radial-gradient(#54A2E0, #164C78);
+}
+
+.bar.bar-royal {
+border-color: #164C78;
+background-color: #54A2E0;
+background-image: linear-gradient(0deg, #164C78, #164C78 50%, transparent 50%);
+color: #fff; }
+.bar.bar-royal.bar-footer {
+background-image: linear-gradient(180deg, #164C78, #164C78 50%, transparent 50%); }
+.bar-royal .button {
+border-color: #164C78;
+background-color: #54A2E0;
+color: #fff; }
+.bar-royal .button.active, .bar-royal .button.activated {
+border-color: #164C78;
+background-color: #164C78; }
+.item.active.item-royal, .mm-grades-table .active.item-royal.itemcenter,
+.item.activated.item-royal,
+.mm-grades-table .activated.item-royal.itemcenter,
+.item-complex.active .item-content.item-royal,
+.item-complex.activated .item-content.item-royal,
+.item .item-content.active.item-royal, .mm-grades-table .itemcenter .item-content.active.item-royal,
+.item .item-content.activated.item-royal, .mm-grades-table .itemcenter .item-content.activated.item-royal {
+border-color: #164C78;
+background-color: #164C78; }
+.item.active.item-royal.item-complex > .item-content, .mm-grades-table .active.item-royal.item-complex.itemcenter > .item-content,
+.item.activated.item-royal.item-complex > .item-content, .mm-grades-table .activated.item-royal.item-complex.itemcenter > .item-content,
+.item-complex.active .item-content.item-royal.item-complex > .item-content,
+.item-complex.activated .item-content.item-royal.item-complex > .item-content,
+.item .item-content.active.item-royal.item-complex > .item-content, .mm-grades-table .itemcenter .item-content.active.item-royal.item-complex > .item-content,
+.item .item-content.activated.item-royal.item-complex > .item-content, .mm-grades-table .itemcenter .item-content.activated.item-royal.item-complex > .item-content {
+border-color: #164C78;
+background-color: #164C78; }
+.item-complex.item-royal > .item-content.active, .item-complex.item-royal > .item-content:active {
+border-color: #164C78;
+background-color: #164C78; }
+.item-complex.item-royal > .item-content.active.item-complex > .item-content, .item-complex.item-royal > .item-content:active.item-complex > .item-content {
+border-color: #164C78;
+background-color: #164C78; }
+.button.button-royal.active, .button.button-royal.activated {
+border-color: #0064d2;
+background-color: #164C78; }
+.button-bar.bar-royal > .button {
+border-color: #164C78; }
+.royal-border {
+border-color: #164C78; }
+.tabs.tabs-royal {
+border-color: #164C78;
+background-color: #54A2E0;
+background-image: linear-gradient(0deg, #164C78, #164C78 50%, transparent 50%);
+color: #fff; }
+.tabs-royal > .tabs .tab-item .badge, .tabs-royal > .tabs .tab-item .mma-messages-date span, .mma-messages-date .tabs-royal > .tabs .tab-item span, .tabs-royal > .tabs .tab-item
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom .tabs-royal > .tabs .tab-item span, .tabs-royal > .tabs .tab-item .mma-chat-notice span, .mma-chat-notice .tabs-royal > .tabs .tab-item span,
+.tabs.tabs-royal .tab-item .badge,
+.tabs.tabs-royal .tab-item .mma-messages-date span, .mma-messages-date
+.tabs.tabs-royal .tab-item span,
+.tabs.tabs-royal .tab-item
+.mma-messages-unreadfrom span,
+.mma-messages-unreadfrom
+.tabs.tabs-royal .tab-item span,
+.tabs.tabs-royal .tab-item .mma-chat-notice span, .mma-chat-notice
+.tabs.tabs-royal .tab-item span {
+background-color: #fff;
+color: #54A2E0; }
+.tabs-striped.tabs-royal .tabs {
+background-color: #54A2E0; }
+.tabs-striped.tabs-background-royal .tabs {
+background-color: #54A2E0;
+background-image: none; }
+.tabs-striped.tabs-color-royal .tab-item.tab-item-active, .tabs-striped.tabs-color-royal .tab-item.active, .tabs-striped.tabs-color-royal .tab-item.activated {
+margin-top: -2px;
+color: #54A2E0;
+border: 0 solid #54A2E0;
+border-top-width: 2px; }
+.tabs-background-royal .tabs,
+.tabs-background-royal > .tabs {
+background-color: #54A2E0;
+background-image: linear-gradient(0deg, #164C78, #164C78 50%, transparent 50%);
+border-color: #164C78; }
+.tabs-color-royal .tab-item.tab-item-active, .tabs-color-royal .tab-item.active, .tabs-color-royal .tab-item.activated {
+color: #54A2E0;
+border: 0 solid #54A2E0; }
+ion-tabs.tabs-color-active-royal .tab-item.tab-item-active, ion-tabs.tabs-color-active-royal .tab-item.active, ion-tabs.tabs-color-active-royal .tab-item.activated {
+color: #54A2E0; }
+ion-tabs.tabs-striped.tabs-color-active-royal .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-royal .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-royal .tab-item.activated {
+border-color: #54A2E0;
+color: #54A2E0; }
+.tab-item.tab-item-active.tab-item-royal,
+.tab-item.active.tab-item-royal,
+.tab-item.activated.tab-item-royal {
+color: #54A2E0; }
+.item.item-royal, .mm-grades-table .item-royal.itemcenter {
+border-color: #164C78;
+background-color: #54A2E0;
+color: #fff; }
+.item-complex.item-royal > .item-content {
+border-color: #164C78;
+background-color: #54A2E0;
+color: #fff; }
+.tabs .tab-item .badge.badge-royal, .tabs .tab-item .mma-messages-date span.badge-royal, .mma-messages-date .tabs .tab-item span.badge-royal, .tabs .tab-item
+.mma-messages-unreadfrom span.badge-royal,
+.mma-messages-unreadfrom .tabs .tab-item span.badge-royal, .tabs .tab-item .mma-chat-notice span.badge-royal, .mma-chat-notice .tabs .tab-item span.badge-royal,
+.badge.badge-royal,
+.mma-messages-date span.badge-royal,
+.mma-messages-unreadfrom span.badge-royal,
+.mma-chat-notice span.badge-royal {
+background-color: #54A2E0;
+color: #fff; }
+.spinner.spinner-royal {
+stroke: #54A2E0;
+fill: #54A2E0; }
+.spinner-spiral.spinner-royal .stop2 {
+stop-color: #54A2E0; }
+.checkbox-royal input:before,
+.checkbox-royal .checkbox-icon:before {
+border-color: #54A2E0; }
+.checkbox-royal input:checked:before,
+.checkbox-royal input:checked + .checkbox-icon:before {
+background: #54A2E0;
+border-color: #54A2E0; }
+.toggle.toggle-royal input:checked + .track {
+border-color: #54A2E0;
+background-color: #54A2E0; }
+.toggle-small .toggle-royal input:checked + .track .handle {
+background-color: #54A2E0; }
+.range.range-royal input::-webkit-slider-thumb:before {
+background: #54A2E0; }
+.range.range-royal input::-ms-fill-lower {
+background: #54A2E0; }
+.item-select.item-royal select {
+background: #54A2E0;
+color: #fff; }
+.button.button-royal {
+border-color: #0064d2;
+background-color: #54A2E0;
+color: #fff; }
+.button.button-royal.button-clear {
+border-color: transparent;
+background: none;
+box-shadow: none;
+color: #54A2E0; }
+.button.button-royal.button-outline {
+border-color: #54A2E0;
+background: transparent;
+color: #54A2E0; }
+.button.button-royal.button-outline.active, .button.button-royal.button-outline.activated {
+background-color: #54A2E0;
+box-shadow: none;
+color: #fff; }
+.royal, a.royal {
+color: #54A2E0; }
+.royal-bg {
+background-color: #54A2E0; }
+.bar-content {
+border-color: transparent;
+background-color: #54A2E0;
+background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
+color: #ffffff; }
+.bar-content .button {
+border-color: transparent;
+background-color: #54A2E0;
+color: #ffffff; }
+.bar-content .button.active, .bar-content .button.activated {
+border-color: transparent;
+background-color: #54A2E0; }
+.mm-tabs-color .tab-item.tab-item-active, .mm-tabs-color .tab-item.active, .mm-tabs-color .tab-item.activated {
+margin-top: -2px;
+color: #54A2E0;
+border: 0 solid #54A2E0;
+border-top-width: 2px; }
+.mm-tabs-color .tab-item.tab-item-active, .mm-tabs-color .tab-item.active, .mm-tabs-color .tab-item.activated {
+color: #54A2E0;
+border: 0 solid #54A2E0; }
+.mm-recaptcha-modal .bar-header {
+border-color: transparent;
+background-color: #54A2E0;
+background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
+color: #ffffff; }
+.mm-capture-media-modal .bar-header {
+border-color: transparent;
+background-color: #54A2E0;
+background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
+color: #ffffff; }
+.bar-side-menu {
+border-color: transparent;
+background-color: #54A2E0;
+background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
+color: #ffffff;
+height: 80px !important; }
+.mma-forum-discussion-link.mm-split-item-selected article .item-heading,
+.mma-forum-discussion-link.mm-split-item-selected > .item article .item-heading, .mm-grades-table
+.mma-forum-discussion-link.mm-split-item-selected > .itemcenter article .item-heading {
+border-top: 5px solid #54A2E0;
+margin-top: -1px; }
